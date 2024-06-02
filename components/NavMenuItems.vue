@@ -1,7 +1,7 @@
 <template>
                     <li>
                         <NuxtLink ref="homeLink" class="btn" to="/">
-                            <BasicMenuItem title="home" icon="home" :unfolded="isUnfolded('/')" />
+                            <BasicMenuItem title="Home" icon="home" :unfolded="isUnfolded('/')" />
                         </NuxtLink>
                     </li>
                     <li>
@@ -16,7 +16,7 @@
                     </li>
                     <li>
                         <NuxtLink ref="uslugiLink" class="btn" to="/uslugi">
-                            <BasicMenuItem title="Usugi" icon="format_paint" :unfolded="isUnfolded('/uslugi')" />
+                            <BasicMenuItem title="Usługi" icon="format_paint" :unfolded="isUnfolded('/uslugi')" />
                         </NuxtLink>
                     </li>
                     <li>

@@ -15,7 +15,7 @@
           :key="index"
           class="flex flex-col md:flex-col border-2 border-solid justify-center items-center m-4 p-4"
         >
-        <h4 class="text-red-800 text-xl text-center pb-2 z-40">{{ product.name }}</h4>
+        <h4 class="text-red-800 text-xl text-center pb-2 z-40 font-myCustom tracking-m">{{ product.name }}</h4>
           <div class="flex flex-col md:flex-row justify-center items-center">
             <div id="photoContainer" class="flex flex-row justify-center mx-4 w-44">
               <img
@@ -87,8 +87,7 @@ images = [produkt1, produkt2, produkt3]
 
 #photoShadow2 {
   transform: scaleY(1.05) skew(8deg);
-  opacity: 0.5;
-  @apply bg-red-800;
+  @apply bg-gray-400;
 }
 
 </style>

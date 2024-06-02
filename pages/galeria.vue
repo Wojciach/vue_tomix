@@ -7,7 +7,6 @@
         shift="3%"
         :animate="true"
         :exist="[2,3]"
-        rounded
       />
     </div>
   </div>

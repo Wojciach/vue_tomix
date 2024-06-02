@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-center items-center mb-12 ">
-    <MyHeader title="Kalkultor:" />
+    <MyHeader title="Kalkultor" />
     <div class="flex flex-col md:flex-row justify-between items-start">
         <p class="mt-0 pt-0 mx-4 mb-4 font-semibold">Do cen malowania wliczone są usługi takie jak:</p>
         <ul id="list" class="mb-8 mx-8 list-disc">
@@ -24,7 +24,7 @@
         class="flex flex-col justify-center shadow-lg items-center border-2 border-solid border-gray-800 px-7 pb-7 mt-4 mx-5 rounded-xl bg-slate-300"
         v-show="!samPodnosnik"
       >
-        <div class="p-2 text-center font-semibold">Kalkulator:</div>
+        <div class="p-2 text-center  font-myCustom text-red-900 tracking-w text-xl">Kalkulator</div>
         <div class="flex flex-col mb-4">
           <label for="paint-type" class="mr-2">Wybierz rodzaj usługi:</label>
           <select

@@ -1,7 +1,7 @@
 <template>
   <div class="block relative">
     <div id="div1" class="block relative text-center bg-white border-2 border-solid border-gray-700 z-10">
-      <div id="text" class='text-2xl p-2 font-semibold'> {{ text }} </div>
+      <div id="text" class="text-2xl p-2 font-semibold font-myCustom tracking-w"> {{ text }} </div>
     </div>
     <div id="div2" class="block absolute bg-gray-900 top-0 left-0 w-full h-full z-0"></div>
     <div id="div3" class="block absolute bg-red-800 top-0 left-0 w-full h-full z-0"></div>
@@ -35,10 +35,10 @@ const props = defineProps({
 }
 
 #div2 {
-  transform: skew(-40deg) translate(20px, 7px)
+  transform: skew(-40deg) translate(10px, 7px)
 }
 #div3 {
-  transform: skew(-40deg) translate(-20px, -7px)
+  transform: skew(-40deg) translate(-10px, -7px)
 }
 
 </style>

@@ -14,9 +14,9 @@
             {{ value }}
           </li>
       </ul>
-      <div class="map border-red-800 border-2 rounded-lg">
+      <div class="map border-wkite border-solid border-2">
         <iframe
-          class="border-blue-900 border-2 rounded-lg"
+          class="border-white border-2"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d535862.8106179542!2d15.641983747331913!3d51.39818339797092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470f6f5dec8c30e3%3A0xeb22ebd7aefefc83!2sLubin!5e0!3m2!1sen!2spl!4v1716809492088!5m2!1sen!2spl"
           width="100%"
           height="250"
@@ -45,4 +45,7 @@ useHead({
 </script>
 
 <style>
+
+
+
 </style>

@@ -71,11 +71,6 @@
 </script>
 
 <style>
-
-    nav ul li:hover .basic_menu_item  {
-        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-    }
-
     .btn.router-link-active .title_section, .btn.router-link-exact-active .title_section {
         @apply bg-gray-300 font-semibold;
     }

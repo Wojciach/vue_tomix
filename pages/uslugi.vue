@@ -1,9 +1,9 @@
 <template>
   <div>
-    <MyHeader title="Nasze Usługi:" />
+    <MyHeader title="Nasze Usługi" />
     <ul>
       <li class="text-center" v-for="(value, key) in services" :key="key">
-         <span class="text-red-800 text-xl mx-2 md:mx-18"> {{ value.name }} </span>
+         <span class="text-red-800 text-xl mx-2 md:mx-18 font-myCustom tracking-m"> {{ value.name }} </span>
           <ul class="m-2">
             <li class="mb-4 text-left flex flex-row justify-center items-center" v-for="(subItem, subIndex) in value.subList" :key="subIndex">
                 <div class="photo">

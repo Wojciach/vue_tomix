@@ -1,3 +1,6 @@
+
+
+
 .fader-enter-active, .fader-leave-active {
     transition: opacity 0.2s ease-in-out;
 }
