@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Czyszczenie Elewacji",
+        "subList": [
+            "Oferujemy profesjonalne mycie ciśnieniowe elewacji, które skutecznie usuwa brud, glony, pleśń oraz inne zanieczyszczenia. Dzięki naszym zaawansowanym technologiom i specjalistycznym urządzeniom, możemy przywrócić świeży wygląd każdej elewacji."
+        ],
+        "image": "Image26.jpg"
+    },
+    {
+        "name": "Malowanie Elewacji",
+        "subList": [
+            "Nasza firma korzysta wyłącznie z wysokiej jakości farb, które zapewniają trwałość koloru oraz ochronę przed szkodliwymi czynnikami zewnętrznymi. Wszystkie używane przez nas farby posiadają co najmniej 5-letnią gwarancję producenta, co gwarantuje długotrwały efekt i satysfakcję z wykonanej pracy."
+        ],
+        "image": "Image1.jpg"
+    },
+    {
+        "name": "Mycie Ciśnieniowe Dachów",
+        "subList": [
+            "Zajmujemy się także myciem ciśnieniowym powierzchni dachowych, co pozwala na usunięcie mchu, brudu i innych zanieczyszczeń, przedłużając żywotność pokrycia dachowego."
+        ],
+        "image": "Image31.jpg"
+    },
+    {
+        "name": "Impregnacja Hydrofobowa",
+        "subList": [
+            "Aby zabezpieczyć elewacje przed wilgocią i zabrudzeniami, stosujemy nowoczesne impregnaty hydrofobowe. Dzięki temu, powierzchnie są chronione przed wchłanianiem wody, co zapobiega powstawaniu plam oraz rozwojowi grzybów i pleśni."
+        ],
+        "image": "Image3.jpg"
+    },
+    {
+        "name": "Malowanie Natryskowe",
+        "subList": [
+            "Malowanie natryskowe to nowoczesna i efektywna metoda, która oferuje wiele zalet w porównaniu do tradycyjnych technik malarskich. Zapewnia szybkie, równomierne i profesjonalne wykończenie, oszczędza czas i materiał, oraz pozwala na precyzyjne pokrycie skomplikowanych powierzchni. Dzięki tym zaletom, malowanie natryskowe jest popularne zarówno w przemyśle, jak i w pracach domowych."
+        ],
+        "image": "Image32.jpg"
+    },
+    {
+        "name": "Gładzie natryskowe",
+        "subList": [
+            "Kładzenie gładzi natryskowych to nowoczesna metoda, która oferuje liczne korzyści, w tym szybkość wykonania, wyższą jakość wykończenia, mniejsze straty materiału oraz lepsze przyleganie do podłoża. Dzięki tym zaletom jest to technika coraz częściej wybierana przez profesjonalistów zajmujących się remontami i wykończeniami wnętrz."
+        ],
+        "image": "Image28.jpg"
+    },
+    {
+        "name": "Przycinka drzew z podnośnika",
+        "subList": [
+            "Przycinanie gałęzi z podnośnika koszowego to bezpieczna, efektywna i precyzyjna metoda, która zapewnia wiele korzyści w porównaniu z tradycyjnymi metodami. Stabilność, dostęp do trudno dostępnych miejsc, szybka i dokładna praca, oraz minimalizacja uszkodzeń drzew to tylko niektóre z zalet, które sprawiają, że podnośniki koszowe są powszechnie wykorzystywane w arborystyce i pielęgnacji drzew."
+        ],
+        "image": "Image27.jpg"
+    },
+    {
+        "name": "Mycie paneli fotowoltaicznych",
+        "subList": [
+            "Regularne mycie paneli fotowoltaicznych przynosi liczne korzyści, takie jak zwiększenie wydajności energetycznej, przedłużenie żywotności paneli, poprawa estetyki, oszczędności finansowe oraz korzyści ekologiczne. Dzięki utrzymaniu paneli w czystości, można maksymalnie wykorzystać ich potencjał, co przekłada się na lepsze efekty ekonomiczne i ekologiczne."
+        ],
+        "image": "Image30.jpg"
+    },
+    {
+        "name": "Wynajem podnośnika koszowego",
+        "subList": [
+            "Wynajem podnośnika koszowego niesie ze sobą wiele korzyści, które mogą znacząco wpłynąć na efektywność, bezpieczeństwo i jakość realizowanych prac. Podnośnik koszowy pozwala na szybkie i efektywne przeprowadzenie prac, co skraca czas realizacji projektu. (Nasz podnośnik posiada maksymalą wysokość roboczą 15m oraz udźwig maksymalny 200kg)"
+        ],
+        "image": "Image33.jpg"
+    }
+]

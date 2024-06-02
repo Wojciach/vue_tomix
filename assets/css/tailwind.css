@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-gray-100 mx-0;
+}
+
+.basic_menu_item::after {
+    position: absolute;
+    display: flex;
+    z-index: -1;
+    flex-grow: 1;
+    content: '';
+    background-color: rgb(45, 45, 45);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    transform: skew(15deg) translateX(-6px)
+  }
+
+  .calistoga-regular {
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+  }

@@ -1,0 +1,37 @@
+{
+    "farby": [
+        {
+            "name": "malowanie farbą POL-SILKO",
+            "value": "pol-silko",
+            "price": 90
+        },
+        {
+            "name": "malowanie farbą POL-SIBELLO",
+            "value": "pol-sibello",
+            "price": 100
+        },
+        {
+            "name": "malownie bez materiału",
+            "value": "bez-mat",
+            "price": 70
+        },
+        {
+            "name": "mycie ścian z użuciem płynów czysczących",
+            "value": "mycie-scian",
+            "price": 10
+        },
+        {
+            "name": "mycie powierzchni dachowych z użuciem płynów czysczących",
+            "value": "mycie-dachow",
+            "price": 15
+        },
+        {
+            "name": "natryskowa impregnacja hydrofobowa Eksil EH16",
+            "value": "impregnacja",
+            "price": 30
+        }
+    ],
+    "podnosnik": {
+        "price": 150
+    }
+}

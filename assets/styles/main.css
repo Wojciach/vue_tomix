@@ -1,0 +1,6 @@
+.fader-enter-active, .fader-leave-active {
+    transition: opacity 0.2s ease-in-out;
+}
+.fader-enter, .fader-leave-to /* .fade-leave-active in <2.1.8 */ {
+    opacity: 0;
+}

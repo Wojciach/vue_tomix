@@ -1,0 +1,103 @@
+{
+    "impregnaty": [
+        "Impregnaty",
+        {
+            "name": "NAIDRY T",
+            "subList": [
+                "NAIDRY T to dwuwarstwowy środek ochronny na bazie innowacyjnych żywic, stworzony do eliminacji przecieków przez mikroszczeliny na tarasach i balkonach. Produkt jest wodoodporny, skutecznie zapobiega infiltracji wody oraz konsoliduje podłoże bez zmiany wyglądu powierzchni, zapewniając jej naturalne przepuszczanie powietrza.",
+
+                "Pierwsza warstwa (impregnat) przygotowuje powierzchnię do aplikacji drugiej warstwy, natomiast druga warstwa (wykończenie) zapewnia długotrwałą ochronę. NAIDRY T jest odpowiedni do różnych rodzajów płytek, takich jak gres, klinkier, kamionka, kamień, cement i terakota."
+            ],
+            "image": "naidry_t.jpg"
+        }
+    ],
+    "farby_wewnetrzne": [
+        "Farby wewnętrzne",
+        {
+            "name": "LATEX-MAL - FARBA WEWNĘTRZNA LATEKSOWA",
+            "subList": [
+                "Dyspersyjna farba lateksowa do malowania wnętrz, przeznaczona do wykonywania estetycznych powłok malarskich.",
+    
+                "Tworzy powłokę wysoce odporną na wielokrotne mycie, odporna na szorowanie na sucho.",
+    
+                "Jest paroprzepuszczalna, elastyczna, silnie kryjąca. Tiksotropowa, łatwo rozprowadza się na podłożu, nie skapuje z narzędzi."
+    
+            ],
+            "image": "latex_mal.jpg"
+        },
+        {
+            "name": "STRUKTURA RAUFAZA - FARBA WEWNĘTRZNA AKRYLOWA",
+            "subList": [
+                "Dyspersyjna farba akrylowa tworząca powłokę o wyglądzie tapety raufaza do malowania wnętrz, przeznaczona do wykonywania białych, estetycznych powłok malarskich.",
+    
+                "Szczególnie polecana do malowania ścian i sufitów w suchych pomieszczeniach mieszkalnych, gospodarczych, magazynowych i przemysłowych. Tworzy strukturalną matową dekoracyjną powłokę."
+            ],
+            "image": "STRUKTURA-RAUFAZA2.jpg"
+        },
+        {
+            "name": "PROFIX-MAL - FARBA WEWNĘTRZNA GRUNTUJĄCA",
+            "subList": [
+                "Farba podkładowa ze specjalnie dobraną żywicą akrylową i nowoczesną żywicą drobnocząsteczkową wnikającą głęboko w podłoże. Mikronizowane wypełniacze i dodatki tworzą optymalną emulsję gruntującą przeznaczoną do gruntowania podłoży o nierównej chłonności, a w szczególności do tynków, gładzi, płyt gipsowo-kartonowych oraz tapet papierowych.",
+    
+                "Farba PROFIX-MAL podkładowa ułatwia nakładanie farb dekoracyjnych nawierzchniowych. Szczególnie polecana do gruntowania pod wyroby kolorowe i białe. Wyrównuje chłonność podłoża, żywica drobnocząsteczkowa wzmacnia go."
+            ],
+            "image": "PROFIX-MAL2.jpg"
+        }
+    ],
+    "farby_zewnetrzne": [
+        "Farby zewnętrzne",
+        {
+            "name": "POL-SILKO - FARBA ZEWNĘTRZNA SILIKONOWA",
+            "subList": [
+                "POL-SILIKO to matowa silikonowa farba nawierzchniowa przeznaczona do wykonywania powłok malarskich na zewnątrz budynku. Szczególnie przeznaczona do renowacyjnego malowania powierzchni narażonych na intensywne działanie warunków atmosferycznych i wymagającej wysokiej odporności na zabrudzenia.",
+    
+                "Tworzy trwałą powłokę o wysokiej paro przepuszczalności oraz niskiej nasiąkliwości powierzchniowej. Po zwilżeniu powłoki silikonowej na jej powierzchni występuje efekt odpychania cząsteczek wody. Efekt ten skutecznie zabezpiecza elewację przed działaniem opadów atmosferycznych i znacznie redukuje osadzanie się zanieczyszczeń."
+            ],
+            "image": "POL-SILIKO1.jpg"
+        },
+        {
+            "name": "POL-SIBELLO - FARBA ZEWNĘTRZNA SILIKONOWA - FARBA SAMOCZYSZCZĄCA",
+            "subList": [
+                "POL-SIBELLO z efektem lotosu to najnowsza farba silikonowa sformułowana na bazie importowanych bardzo drobno mielonych super białych mączek krystobalitowych firmy Sibelco, specjalnej nowoczesnej żywicy silikonowej o zwiększonej odporności na złe warunki atmosferyczne oraz wysokiej paro przepuszczalności.",
+    
+                "Farba ta idealnie zabezpiecza zabytkowe budynki, ale także nowoczesne konstrukcje betonowe oraz budownictwo mieszkalne i przemysłowe. Dzięki hydrofobowości mączki krystobalitowej i jej struktury następuje blokowanie wnikania wody w głąb podłoża. Jednocześnie bardzo wysoka paro przepuszczalność powłoki umożliwia odprowadzenie cząsteczek pary wodnej z podłoża.",
+    
+                "W farbie występuje efekt samooczyszczenia, perlenia zwany efektem lotosu."
+            ],
+            "image": "POL-SIBELLO1.jpg"
+        }
+    ],
+    "gladzie": [
+        "Gładzie natryskowe",
+        {
+            "name": "PLATINIUM NATRYSK - GŁADŹ NATRYSKOWA",
+            "subList": [
+                "Nasza akrylowa gładź natryskowa to super biała, gotowa do użycia masa polimerowa, która doskonale sprawdzi się w wykończeniach wnętrz. Dzięki swoim właściwościom samopoziomującym i wyrównującym, zapewnia idealnie gładką powierzchnię. Jest łatwa w aplikacji, trwała i elastyczna, co czyni ją idealnym wyborem zarówno do nowych budynków, jak i podczas remontów."
+            ],
+            "image": "PLATINIUM-NATRYSK.jpg"
+        }
+    ],
+    "tynki_elewacyjne": [
+        "Tynki elewacyjne",
+        {
+            "name": "SIBELLOX - SAMOCZYSZCZĄCY ZEWNĘTRZNY TYNK SILIKONOWY",
+            "subList": [
+                "TYNK SIBELLOX jest opracowany na nowoczesnych żywicach silikonowych, dodatków hydrofobizujących, ziaren marmuru carraryjskiego oraz bardzo białych mączek kwarcowych i krystobalitowych belgijskiej firmy SIBELCO. Tynk dzięki temu jest idealnie biały. Mączki te i specjalny hydrofobizator wzmacnia odporność tynku na zanieczyszczenia i osiadanie brudu.",
+
+                "Tynk jest samoczyszczący. Dzięki specjalnej żywicy silikonowej jest paroprzepuszczalny oraz bardziej trwały. Tynk jest zabezpieczony biocydem powłokowym firmy THOR"
+
+
+            ],
+            "image": "samoczyszczacy_SIBELLOX.jpg"
+        },
+        {
+            "name": "SILINOX NATRYSK - SILIKONOWA MASA NATRYSKOWA",
+            "subList": [
+                "Mieszanina dyspersji polimerów akrylowych, żywicy silikonowej, dodatków hydrofobizujących, kruszyw mineralnych, wody, pigmentów, organicznych i nieograniczonych, środków konserwujących, środków ochrony powłoki oraz innych dodatków modyfikujących.",
+
+                "Nasza silikonowa masa natryskowa to doskonały wybór do tworzenia dekoracyjnych powłok w systemach dociepleń. Dzięki specjalnym dodatkom umożliwiającym natryskową aplikację oraz zawartości biocydu powłokowego, produkt jest łatwy w użyciu i zapewnia trwałą ochronę przed mikroorganizmami. Spraw, aby Twoje powierzchnie były estetyczne i odporne na warunki atmosferyczne"
+            ],
+            "image": "SILINOX-1.jpg"
+        }
+    ]
+}
