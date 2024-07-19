@@ -5,6 +5,7 @@
     class="square1 saturate-50"
     :class="{'rounded-full': rounded,'animate': animate}"
   >
+  <NuxtImg :src="props.imageUrl" class="z-40 absolute w-full h-full object-cover" />
   </div>
   <div
     v-if="exist.includes(2)"
@@ -84,9 +85,11 @@ var containerStyle = `
   width: ${props.width};
   height: ${props.height};
 `
+
+// background-image: url(${props.imageUrl});
 var dynamicStyle1 = `
    mask-image: url(${computedMaskUrl.value});
-   background-image: url(${props.imageUrl});
+  
 `
 var dynamicStyle2 = `
    mask-image: url(${computedMaskUrl.value});
@@ -121,7 +124,7 @@ var dynamicStyle4 = `
 }
 
 .square1 {
-  z-index: 100;
+  z-index: 30;
   transition: all 0.3s ease-in-out;
 }
 

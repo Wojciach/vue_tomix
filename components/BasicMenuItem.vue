@@ -53,7 +53,7 @@ const props = defineProps({
 
 .icon_section {
   display: relative;
-  @apply flex justify-center items-center border-2 text-white p-2 border-red-800 bg-red-800 z-20 translate-x-2;
+  @apply flex justify-center items-center  text-white p-2 z-20 translate-x-2;
 }
 
 .icon_section #iconShadow {
@@ -64,14 +64,15 @@ const props = defineProps({
   left: 0;
   width: 100%;
   height: 100%;
-  transform: scale(1.0) skew(15deg) translateX(-6px);
-  @apply bg-red-800 outline outline-red-800;
+  transform: scale(1.0) skew(15deg);
+  @apply bg-red-700;
 }
 
 .title_section {
   position: relative;
   transform: skew(15deg);
-  @apply flex items-center px-2 border-2 whitespace-nowrap border-red-800 pl-4 bg-white text-sm;
+  border-width: 1px;
+  @apply flex items-center px-2 border-solid border-red-700 whitespace-nowrap pl-3 text-sm;
 }
 
 .title_section #text {
@@ -88,9 +89,8 @@ const props = defineProps({
 }
 
 #icon {
-  @apply p-0 m-0 -translate-x-0.5;
+  @apply p-0 m-0;
 }
-
 
 .trans-leave-to,
 .trans-enter-from {

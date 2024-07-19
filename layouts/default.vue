@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="min-w-96">
         <header
             class="shadow-sm p-4  bg-gray-100 flex items-center flex-col justify-around md:justify-between overflow-hidden"
             :class="{'md:flex-col': menuOpen, 'md:flex-row': !menuOpen}"
@@ -24,7 +24,7 @@
                         key="menu"
                     >
                         <ul
-                            class="flex gap-4 transition-all duration-200 flex-row flex-wrap justify-center"
+                            class="flex gap-2 transition-all duration-200 flex-row flex-wrap justify-center"
                             :class="{'translate-y-full': menuOpen, 'translate-y-0': !menuOpen}"
                         >
                             <NavMenuItems :unfolded="unfolded" />
@@ -43,9 +43,11 @@
             </div>
         </header>
         <!-- Output page content -->
-        <div class="mx-4 md:mx-28" >
+        <main>
             <NuxtPage />
-        </div>
+        </main>
+        <ScrollToTopButton />
+        <Footer />
     </div>
 </template>
 

@@ -1,20 +1,20 @@
 <template>
-  <div>
+  <div class="mx-4 md:mx-24 lg:mx-44">
     <MyHeader title="Nasze Usługi" />
     <ul>
-      <li class="text-center" v-for="(value, key) in services" :key="key">
-         <span class="text-red-800 text-xl mx-2 md:mx-18 font-myCustom tracking-m"> {{ value.name }} </span>
+      <li class="text-center mb-8" v-for="(value, key) in services" :key="key">
+         <h3 class="text-red-700 text-xl mx-2 mb-0 md:mx-18 font-myCustom tracking-m"> {{ value.name }} </h3>
           <ul class="m-2">
-            <li class="mb-4 text-left flex flex-row justify-center items-center" v-for="(subItem, subIndex) in value.subList" :key="subIndex">
+            <li class="mb-4 text-left flex flex-col md:flex-row justify-center items-center" v-for="(subItem, subIndex) in value.subList" :key="subIndex">
                 <div class="photo">
                   <img
                     id="photo"
                     :src="'/img/galeria/' + value.image"
-                    class="w-auto h-32 z-40"
+                    class="w-auto h-32 z-40 object-cover"
                   />
                   <div class="photoBackground"></div>
                 </div>
-              <p class="w-2/3 pl-6">{{ subItem }}</p>
+              <p class="w-full pl-10">{{ subItem }}</p>
             </li>
           </ul>
       </li>
@@ -30,7 +30,7 @@ import services from '../resources/texts/services.json';
 // })
 
 useHead({
-  titleTemplate: '%s - Usługi',
+  titleTemplate: '%s - Usługi Renowacje Malowanie Elewacji',
 })
 
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center mb-12 ">
+  <div class="md:mx-14 flex flex-col justify-center items-center mb-12 ">
     <MyHeader title="Kalkultor" />
     <div class="flex flex-col md:flex-row justify-between items-start">
         <p class="mt-0 pt-0 mx-4 mb-4 font-semibold">Do cen malowania wliczone są usługi takie jak:</p>
@@ -106,7 +106,7 @@ import calcData from "../resources/texts/kalkulatorData.json"
   });
 
   useHead({
-    titleTemplate: '%s - Kalkulator',
+    titleTemplate: '%s - Kalkulator Ceny Gładzie Natryskowe Malowanie',
   })
 </script>
 
@@ -126,7 +126,7 @@ ul#list li::marker{
   left: 0;
   height: auto;
   transform: scale(1.0) skewX(-12deg) translate(13px, -12px);
-  @apply bg-red-800;
+  @apply bg-red-700;
 }
 
 #kalkulator:before {

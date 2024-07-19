@@ -1,6 +1,6 @@
 {
     "impregnaty": [
-        "Impregnaty",
+        "Impregnaty, Płynne papy",
         {
             "name": "NAIDRY T",
             "subList": [
@@ -8,7 +8,20 @@
 
                 "Pierwsza warstwa (impregnat) przygotowuje powierzchnię do aplikacji drugiej warstwy, natomiast druga warstwa (wykończenie) zapewnia długotrwałą ochronę. NAIDRY T jest odpowiedni do różnych rodzajów płytek, takich jak gres, klinkier, kamionka, kamień, cement i terakota."
             ],
-            "image": "naidry_t.jpg"
+            "image": "naidry_t.jpg",
+            "link": "https://www.naici.it/polska/produkty-naici.html"
+        },
+        {
+            "name": "NAILASTIC 10-F",
+            "subList": [
+                "Płynna papa hydroizolacyjna wzmocniona włóknem, odporna na wody stojące, odpowiednia do bezpośredniego klejenia płytek lub innego wykończenia",
+
+                "NAILASTIC 10-F jest w pełni odporna na wody stojące, tworzy trwałą powierzchnię o doskonałej odporności na promieniowania UV. Może być użyta jako końcowe wykończenie lub stanowić bazę do innego wykończenia.",
+
+                "Włókna zawarte bezpośrednio wewnątrz sprawiają, iż nie ma konieczności sporządzania dodatkowego zbrojenia, wzmacniając bezpośrednio materiał i gwarantując odporność na obciążenie ruchem pieszym oraz odpowiednią odporności na ruchy strukturalne."
+            ],
+            "image": "nailastic10-f.jpg",
+            "link": "https://www.naici.it/polska/produkty-naici.html"
         }
     ],
     "farby_wewnetrzne": [
@@ -17,9 +30,7 @@
             "name": "LATEX-MAL - FARBA WEWNĘTRZNA LATEKSOWA",
             "subList": [
                 "Dyspersyjna farba lateksowa do malowania wnętrz, przeznaczona do wykonywania estetycznych powłok malarskich.",
-    
                 "Tworzy powłokę wysoce odporną na wielokrotne mycie, odporna na szorowanie na sucho.",
-    
                 "Jest paroprzepuszczalna, elastyczna, silnie kryjąca. Tiksotropowa, łatwo rozprowadza się na podłożu, nie skapuje z narzędzi."
     
             ],

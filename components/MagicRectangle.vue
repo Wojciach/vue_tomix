@@ -4,7 +4,7 @@
       <div id="text" class="text-2xl p-2 font-semibold font-myCustom tracking-w"> {{ text }} </div>
     </div>
     <div id="div2" class="block absolute bg-gray-900 top-0 left-0 w-full h-full z-0"></div>
-    <div id="div3" class="block absolute bg-red-800 top-0 left-0 w-full h-full z-0"></div>
+    <div id="div3" class="block absolute bg-red-700 top-0 left-0 w-full h-full z-0"></div>
     <div></div>
   </div>
 </template>

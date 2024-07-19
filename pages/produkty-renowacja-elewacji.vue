@@ -1,12 +1,12 @@
 <template>
-  <div>
+  <div class="mx-8 md:mx-24">
     <MyHeader title="Produkty" />
     <article class="flex flex-col mt-0 pt-0">
       <p class="pt-0 mt-0">
-        W Tomix Elewacje dbamy o najwyższą jakość usług, co odzwierciedla się w starannym doborze produktów, które wykorzystujemy do renowacji elewacji. Nasza firma współpracuje wyłącznie z renomowanymi dostawcami, takimi jak NAICI i ITAL POL 2, którzy zapewniają innowacyjne i efektywne rozwiązania dla branży budowlanej.
+        W Tomix Elewacje dbamy o najwyższą jakość usług, co odzwierciedla się w starannym doborze produktów, które wykorzystujemy do renowacji elewacji. Nasza firma współpracuje wyłącznie z renomowanymi dostawcami, takimi jak <NuxtLink to="https://www.naici.it/polska/" class="link" target="_blank" rel="noopener noreferrer" noPrefetch> NAICI </NuxtLink> i ITAL POL 2, którzy zapewniają innowacyjne i efektywne rozwiązania dla branży budowlanej.
       </p>
       <p class="mb-14">
-        Oto lista niektórych rekomendowanych i często używanych produktów w naszej firmie. Istnieje również możliwość użycia innych artykułów, jeśli zajdzie taka potrzeba lub na życzenie klienta. Jeśli potrzebujesz więcej informacji, prosimy o <NuxtLink to="/kontakt" class="link"> kontakt telefoniczny. </NuxtLink> 
+        Oto lista niektórych rekomendowanych i często używanych produktów w naszej firmie. Istnieje również możliwość użycia innych artykułów, jeśli zajdzie taka potrzeba lub na życzenie klienta. Jeśli potrzebujesz więcej informacji, prosimy o <NuxtLink to="/kontakt-firma-remonty" class="link"> kontakt telefoniczny. </NuxtLink> 
       </p>
       <div v-for="(category, categoryName) in description" :key="categoryName">
         <MagicRectangle :text="category[0]" />
@@ -15,7 +15,7 @@
           :key="index"
           class="flex flex-col md:flex-col border-2 border-solid justify-center items-center m-4 p-4"
         >
-        <h4 class="text-red-800 text-xl text-center pb-2 z-40 font-myCustom tracking-m">{{ product.name }}</h4>
+        <h4 class="text-red-700 text-xl text-center pb-2 z-40 font-myCustom tracking-m">{{ product.name }}</h4>
           <div class="flex flex-col md:flex-row justify-center items-center">
             <div id="photoContainer" class="flex flex-row justify-center mx-4 w-44">
               <img
@@ -26,14 +26,17 @@
               <div id="photoShadow"></div>
               <div id="photoShadow2"></div>
             </div>
-            <div id="textContainer" class="justify-center w-full flex flex-col items-center z-40">
+            <div id="textContainer" class="w-full flex flex-col items-left z-40">
               <p
                 v-for="(point, subIndex) in product.subList"
                 :key="subIndex"
-                class="m-2"
+                class="m-2 text-left "
               >
                 {{ point }}
               </p>
+              <div v-if="product.link">
+                <NuxtLink :to="product.link" class="link" target="_blank" rel="noopener noreferrer" noPrefetch> Kliknij tutaj, aby przeczytać więcej o produkcie na stronie producenta. </NuxtLink>
+              </div>
             </div>
           </div>
         </section>
@@ -52,7 +55,7 @@ import description from '../resources/texts/products.json';
 // })
 
 useHead({
-  titleTemplate: '%s - Produkty',
+  titleTemplate: '%s - Produkty do renowacji elewacji',
 })
 
 var images = [];

@@ -65,16 +65,16 @@ const props = defineProps({
   left: 0;
   height: auto;
   transform: skew(15deg) translateX(6px);
-  @apply bg-red-800;
+  @apply bg-red-700;
 }
 
 .icon_section {
-  @apply flex justify-center items-center border-2 text-white p-2 border-red-800 bg-red-800;
+  @apply flex justify-center items-center border-2 text-white p-2 border-red-700 bg-red-700;
 }
 
 .title_section {
   position: relative;
-  @apply flex items-center px-2 border-2 whitespace-nowrap border-red-800  bg-white text-sm;
+  @apply flex items-center px-2 border-2 whitespace-nowrap border-red-700  bg-white text-sm;
 }
 
 .material-symbols-outlined {

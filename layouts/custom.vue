@@ -1,44 +1,48 @@
 <template>
-  <div class="flex flex-row">
-    <header class="drop-shadow-xl bg-gray-100 flex flex-col justify-start">
-        <div class="sticky top-0">
-            <NuxtLink to="/" class="flex flex-col items-center">
-                <img class="w-32" src="/logo/TOMIX.png" />
-                <!-- <div class="pseudoLogo block relative w-10 h-10 mx-4 mr-7 my-2">
-                    <div class="rounded-full absolute bg-gray-700 w-10 h-10 translate-y-0.5"></div>
-                    <div class="rounded-full absolute bg-red-700 w-10 h-10 z-10  translate-x-2 text-center text-white text-2xl calistoga-regular pt-1">T</div>
-                </div> -->
-                <!-- <div  v-if="unfolded">
-                    <NavLogo />
-                </div> -->
-            </NuxtLink>
-            <div id="menuControls" class="flex flex-row mt-2 mb-0 justify-center flex-wrap">
-                <button @click="changeLayout" class="material-symbols-outlined thoseButtons">toolbar</button>
-                <button @click="menuUnfold" class="material-symbols-outlined thoseButtons">menu_open</button>
-                <button @click="toggleMenu" class="material-symbols-outlined thoseButtons">menu</button>
-            </div>
-            <transition name="slide-fade" mode="out-in">
-                <nav
-                    class="container mx-auto p-4 flex justify-center flex-row mt-0 mb-2"
-                    :class="{'pr-0' : !unfolded } "
-                    v-if="!menuOpen"
-                    key="menu"
-                >
-                    <ul
-                        class="flex gap-4 transition-all duration-200 flex-col flex-wrap items-start"
-                        :class="{'translate-y-full': menuOpen, 'translate-y-0': !menuOpen}"
+  <div class="flex flex-col min-w-96">
+      <div class="flex flex-row">
+        <header class="drop-shadow-xl bg-gray-100 flex flex-col justify-start">
+            <div class="sticky top-0">
+                <NuxtLink to="/" class="flex flex-col items-center">
+                    <img class="w-32" src="/logo/TOMIX.png" />
+                    <!-- <div class="pseudoLogo block relative w-10 h-10 mx-4 mr-7 my-2">
+                        <div class="rounded-full absolute bg-gray-700 w-10 h-10 translate-y-0.5"></div>
+                        <div class="rounded-full absolute bg-red-700 w-10 h-10 z-10  translate-x-2 text-center text-white text-2xl calistoga-regular pt-1">T</div>
+                    </div> -->
+                    <!-- <div  v-if="unfolded">
+                        <NavLogo />
+                    </div> -->
+                </NuxtLink>
+                <div id="menuControls" class="flex flex-row mt-2 mb-0 justify-center flex-wrap">
+                    <button @click="changeLayout" class="material-symbols-outlined thoseButtons">toolbar</button>
+                    <button @click="menuUnfold" class="material-symbols-outlined thoseButtons">menu_open</button>
+                    <button @click="toggleMenu" class="material-symbols-outlined thoseButtons">menu</button>
+                </div>
+                <transition name="slide-fade" mode="out-in">
+                    <nav
+                        class="container mx-auto p-4 flex justify-center flex-row mt-0 mb-2"
+                        :class="{'pr-0' : !unfolded } "
+                        v-if="!menuOpen"
+                        key="menu"
                     >
-                    <NavMenuItems :unfolded="unfolded" />
-                    </ul>
-                </nav>
-            </transition>
-        </div>
-        
-    </header>
-    <!-- Output page content -->
-    <div class="w-full mx-4" >
-        <NuxtPage />
-    </div>
+                        <ul
+                            class="flex gap-4 transition-all duration-200 flex-col flex-wrap items-start"
+                            :class="{'translate-y-full': menuOpen, 'translate-y-0': !menuOpen}"
+                        >
+                        <NavMenuItems :unfolded="unfolded" />
+                        </ul>
+                    </nav>
+                </transition>
+            </div>
+      
+        </header>
+        <!-- Output page content -->
+        <main class="w-full mx-4" >
+            <NuxtPage />
+        </main>
+        <ScrollToTopButton />
+      </div>
+      <Footer />
   </div>
 </template>
 
